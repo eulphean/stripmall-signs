@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+.env.*
+
+# Editors
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+logs/*.log
+*.log
+
+# OS
+Thumbs.db
+
+# Generated or local project data
+# Keep the project structure tracked, but ignore local runtime outputs if needed.
+# Uncomment if you do not want to version generated assets:
+# logos/generated/
+# logos/reference/
+# data/*.csv
