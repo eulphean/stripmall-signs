@@ -29,22 +29,29 @@ Build a resumable pipeline that generates a large set of substituted shop logos 
   - logo_status
 - Use top available brands initially and keep the pipeline flexible for later filtering
 
-### 2. Fetch reference logos
+### 2. Resolve brand domains
+- Script: 02_resolve_domains.py
+- For each brand row, hit the Brandfetch search API and resolve a canonical domain
+- Load `BRANDFETCH_API_KEY` and `BRANDFETCH_API_BASE` from `.env.local`
+- Normalize and write the resolved domain back to the CSV
+- This step is intentionally separated from logo downloads so domain resolution can be rerun independently
+
+### 3. Fetch reference logos
 - Script: 02_fetch_logos.py
-- For each brand row, resolve a logo via Brandfetch with Logo.dev fallback
+- For each brand row with a resolved domain, fetch the reference logo from Brandfetch
 - Save reference files into logos/reference/{slug}.{ext}
 - Update reference_logo_path and logo_status
 - Status values: pending / fetched / missing
 - Skip rows already processed; resume cleanly
 
-### 3. Assign invented words
+### 4. Assign invented words
 - Script: 03_assign_words.py
 - Load data/word_bank.csv
 - Shuffle and assign a unique word per brand
 - Re-runnable so it can reshuffle assignments without reworking earlier steps
 - Store in assigned_word column
 
-### 4. Generate substituted logos
+### 5. Generate substituted logos
 - Script: 04_generate_images.py
 - For each brand with a reference logo and an assigned word:
   - call image generation using the reference logo as the style source
@@ -54,7 +61,7 @@ Build a resumable pipeline that generates a large set of substituted shop logos 
 - Status values: generated / failed
 - Validate on a small subset before running the full batch
 
-### 5. Optional crop/prep pass
+### 6. Optional crop/prep pass
 - Script: 05_crop_prep.py
 - Modes:
   - --pre: crop reference logos to isolate wordmarks before generation
@@ -89,10 +96,10 @@ Build a resumable pipeline that generates a large set of substituted shop logos 
 - Treat the pipeline as a reusable procedural art tool, not as a one-off product generation task
 
 ## External service assumptions
-- Brandfetch as primary logo lookup source
-- Logo.dev as fallback
+- Brandfetch as the domain and logo lookup source
+- Local env secrets stored in `.env.local` via `BRANDFETCH_API_KEY` and `BRANDFETCH_API_BASE`
 - Google Gemini 3 Pro Image via the Batch API for generation
-- Avoid outdated or deprecated free logo API alternatives
+- Do not reintroduce deprecated or dead free logo APIs
 
 ## Success criteria
 - Project can be initialized in this repository with the expected folder structure

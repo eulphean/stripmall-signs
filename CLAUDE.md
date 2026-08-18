@@ -25,22 +25,25 @@ re-running it later must resume, not restart.
    into `data/strip-mall-brands.csv`. Columns: `slug`, `brand_name`,
    `category`, `mall_count`. Take the top ~200 by `mall_count` (or all 477,
    TBD — start with everything, filter later).
-2. **`02_fetch_logos.py`** — For each row, look up `brand_name` via the
-   Brandfetch Logo API (fallback: Logo.dev), save the result to
-   `logos/reference/{slug}.{ext}`, update `reference_logo_path` and
-   `logo_status` (`fetched` / `missing`).
-3. **`03_assign_words.py`** — Load `data/word_bank.csv` (a plain list of
+2. **`02_resolve_domains.py`** — Resolve a canonical `domain` for each brand
+   using the Brandfetch API, reading `BRANDFETCH_API_KEY` and
+   `BRANDFETCH_API_BASE` from `.env.local`. Write back the normalized domain
+   to `data/strip-mall-brands.csv` for downstream logo lookups.
+3. **`02_fetch_logos.py`** — For each row with a resolved domain, fetch the
+   reference logo from Brandfetch, save it to `logos/reference/{slug}.{ext}`,
+   update `reference_logo_path` and `logo_status` (`fetched` / `missing`).
+4. **`03_assign_words.py`** — Load `data/word_bank.csv` (a plain list of
    invented words, no shop mapping yet — build this list separately,
    doesn't need to be finalized before writing this script). Shuffle and
    assign one unique word per brand row, no repeats within a run. Write
    `assigned_word` column. Re-runnable to reshuffle assignments.
-4. **`04_generate_images.py`** — For each row with a fetched reference and
+5. **`04_generate_images.py`** — For each row with a fetched reference and
    an assigned word, call Nano Banana Pro (Gemini 3 Pro Image) via the
    Batch API, image-to-image: reference logo + prompt instructing it to
    match the reference's letterform style/weight/color and render the
    assigned word. Save to `logos/generated/{slug}_{word_slug}.png`, update
    `generated_logo_path` and `logo_status` (`generated` / `failed`).
-5. **`05_crop_prep.py`** — Optional cleanup pass, split into two modes:
+6. **`05_crop_prep.py`** — Optional cleanup pass, split into two modes:
    - `--pre`: crop/isolate wordmark-only from raw reference logos before
      generation (drop icon marks, tighten to lettering).
    - `--post`: trim/standardize canvas on generated outputs before Unreal
@@ -81,8 +84,8 @@ re-running it later must resume, not restart.
 
 ## External services
 
-- **Brandfetch** (primary) / **Logo.dev** (fallback) — logo image lookup by
-  domain. Clearbit's free Logo API is dead (shut down Dec 2025) — do not use.
+- **Brandfetch** — domain resolution and logo lookup via the API. This project
+  reads `BRANDFETCH_API_KEY` and `BRANDFETCH_API_BASE` from `.env.local`.
 - **Nano Banana Pro** = Gemini 3 Pro Image (`gemini-3-pro-image-preview`),
   via `google-genai` SDK. Use the Batch API for the full run (50% cost
   discount vs. sync calls) once the prompt template is validated on a small
