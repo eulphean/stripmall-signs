@@ -26,7 +26,5 @@ Thumbs.db
 
 # Generated or local project data
 # Keep the project structure tracked, but ignore local runtime outputs if needed.
-# Uncomment if you do not want to version generated assets:
-# logos/generated/
-# logos/reference/
-# data/*.csv
+logos/
+!logos/.gitkeep
