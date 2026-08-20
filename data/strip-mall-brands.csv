@@ -1,34 +1,34 @@
 slug,brand_name,category,mall_count,domain,reference_logo_path,assigned_word,generated_logo_path,logo_status,use_status
 24-hour-fitness,24 Hour Fitness,,11,24hourfitness.com,logos/reference/24-hour-fitness.png,24hr Soreness,,failed,use
 7-for-all-mankind,7 For All Mankind,,17,7forallmankind.com,logos/reference/7-for-all-mankind.svg,7 ounces for all mankind,,fetched,use
-aaron-s,Aaron's,,13,aarons.com,logos/reference/aaron-s.svg,Enslaved (Rent to Own),,fetched,use
+aaron-s,Aaron's,,13,aarons.com,logos/reference/aaron-s.svg,Enslaved (Rent to Own),,fetched,skip
 abercrombie-and-fitch,Abercrombie & Fitch,,70,abercrombie.com,logos/reference/abercrombie-and-fitch.png,Anxiety & Fashion,,fetched,use
 abercrombie-kids,Abercrombie Kids,,23,abercrombie.com,logos/reference/abercrombie-kids.png,,,fetched,skip
 ace-hardware,Ace Hardware,,11,acehardware.com,logos/reference/ace-hardware.png,Apology Hardware,,fetched,use
 adidas,Adidas,,53,adidas.com,logos/reference/adidas.png,Overpriced,,fetched,use
 advance-auto-parts,Advance Auto Parts,,12,advanceautoparts.com,logos/reference/advance-auto-parts.png,Awful Auto Parts,,fetched,use
-aerie,Aerie,,86,aerie.ru,logos/reference/aerie.png,Apathetic,,fetched,use
+aerie,Aerie,,86,aerie.ru,logos/reference/aerie.png,Apathetic,,fetched,skip
 aeropostale,Aeropostale,,157,aeropostale.com.co,logos/reference/aeropostale.png,Underclearance,,fetched,use
-aesop,Aesop,,10,aesop.com,logos/reference/aesop.png,Antiluxury,,fetched,use
+aesop,Aesop,,10,aesop.com,logos/reference/aesop.png,Antiluxury,,fetched,skip
 aldi,ALDI,,29,aldi.us,logos/reference/aldi.svg,Cheap,,fetched,use
 aldo,Aldo,,85,aldo.com.sa,logos/reference/aldo.svg,Agony,,fetched,use
-allsaints,AllSaints,,12,allsaints.tw,logos/reference/allsaints.svg,Alimony,,fetched,use
+allsaints,AllSaints,,12,allsaints.tw,logos/reference/allsaints.svg,Alimony,,fetched,skip
 altar-d-state,Altar'd State,,24,altardstate.com,logos/reference/altar-d-state.png,,,fetched,skip
 america-s-best-contacts-and-eyeglasses,America's Best Contacts & Eyeglasses,,10,americasbest.com,logos/reference/america-s-best-contacts-and-eyeglasses.svg,Americas Blurry Baseline Optics,,fetched,use
 american-eagle-outfitters,American Eagle Outfitters,,240,ae.com,logos/reference/american-eagle-outfitters.svg,American Ego,,fetched,use
 ann-taylor,Ann Taylor,,58,anntaylor.com,logos/reference/ann-taylor.png,,,fetched,skip
-anthropologie,Anthropologie,,42,anthropologie.com,logos/reference/anthropologie.png,Artifacts,,fetched,use
-anytime-fitness,Anytime Fitness,,24,anytimefitness.com,logos/reference/anytime-fitness.svg,Absent Fitness,,fetched,use
+anthropologie,Anthropologie,,42,anthropologie.com,logos/reference/anthropologie.png,Artifacts,,fetched,skip
+anytime-fitness,Anytime Fitness,,24,anytimefitness.com,logos/reference/anytime-fitness.svg,Absent Fitness,,fetched,skip
 apple-store,Apple Store,,107,apple.com,logos/reference/apple-store.svg,,,fetched,skip
-applebee-s,Applebee's,,32,applebeescanada.com,logos/reference/applebee-s.svg,Antacid's  (Stomach + Pain),,fetched,use
-arby-s,Arby's,,12,arbys.com,logos/reference/arby-s.png,Agony's,,fetched,use
+applebee-s,Applebee's,,32,applebeescanada.com,logos/reference/applebee-s.svg,Antacid's  (Stomach + Pain),,fetched,skip
+arby-s,Arby's,,12,arbys.com,logos/reference/arby-s.png,Agony's,,fetched,skip
 arhaus,Arhaus,,26,arhaus.com,logos/reference/arhaus.png,,,fetched,skip
 aritzia,Aritzia,,17,aritzia.com,logos/reference/aritzia.png,,,fetched,skip
 armani-exchange,Armani Exchange,,23,armani.com,logos/reference/armani-exchange.png,Artificial Exchange,,fetched,use
-as-seen-on-tv,As Seen On TV,,15,asseenontvlive.com,logos/reference/as-seen-on-tv.png,As Advertised Trash,,fetched,use
+as-seen-on-tv,As Seen On TV,,15,asseenontvlive.com,logos/reference/as-seen-on-tv.png,As Advertised Trash,,fetched,skip
 ashley-homestore,Ashley HomeStore,,24,ashleyhomestore.ca,logos/reference/ashley-homestore.svg,Particleboard,,fetched,use
 asics,ASICS,,15,asics.com,logos/reference/asics.svg,Aging,,fetched,use
-at-home,At Home,,10,athome.com,logos/reference/at-home.png,At Capacity,,fetched,use
+at-home,At Home,,10,athome.com,logos/reference/at-home.png,At Capacity,,fetched,skip
 at-and-t,AT&T,,137,attstadium.com,logos/reference/at-and-t.png,Antennae,,fetched,use
 athleta,Athleta,,37,athleta.com,logos/reference/athleta.svg,,,fetched,skip
 attic-salt,Attic Salt,,12,atticsalt.co,logos/reference/attic-salt.svg,,,fetched,skip
@@ -38,48 +38,48 @@ aveda,Aveda,,40,aveda.com,logos/reference/aveda.svg,Baiting,,fetched,use
 balenciaga,Balenciaga,,10,balenciaga.com,logos/reference/balenciaga.png,Bankruptcy,,fetched,use
 banana-republic,Banana Republic,,102,bananarepublic.com,logos/reference/banana-republic.png,Beige Colonialism,,fetched,use
 banter-by-piercing-pagoda,Banter by Piercing Pagoda,,26,pagoda.com,logos/reference/banter-by-piercing-pagoda.png,,,fetched,skip
-bareminerals,bareMinerals,,14,bareminerals.com,logos/reference/bareminerals.png,dustBasically,,fetched,use
+bareminerals,bareMinerals,,14,bareminerals.com,logos/reference/bareminerals.png,dustBasically,,fetched,skip
 barnes-and-noble,Barnes & Noble,,115,barnesandnoble.com,logos/reference/barnes-and-noble.png,Bookstore Funeral,,fetched,use
 baskin-robbins,Baskin-Robbins,,18,baskinrobbins.com,logos/reference/baskin-robbins.svg,Binge Regret,,fetched,use
-bass-pro-shops,Bass Pro Shops,,10,basspro.com,logos/reference/bass-pro-shops.png,Big Plastic Fish,,fetched,use
+bass-pro-shops,Bass Pro Shops,,10,basspro.com,logos/reference/bass-pro-shops.png,Big Plastic Fish,,fetched,skip
 bath-and-body-works,Bath & Body Works,,326,bathandbodyworks.com,logos/reference/bath-and-body-works.png,Toxic Candle Factory,,fetched,use
-bealls,Bealls,,11,bealls.com,logos/reference/bealls.png,Bargains,,fetched,use
+bealls,Bealls,,11,bealls.com,logos/reference/bealls.png,Bargains,,fetched,skip
 bed-bath-and-beyond,Bed Bath & Beyond,,13,bedbathandbeyond.com,logos/reference/bed-bath-and-beyond.svg,Coupons Never Expire,,fetched,use
-belk,Belk,,69,belk.com,logos/reference/belk.svg,Bland,,fetched,use
+belk,Belk,,69,belk.com,logos/reference/belk.svg,Bland,,fetched,skip
 ben-and-jerry-s,Ben & Jerry's,,12,benjerry.com,logos/reference/ben-and-jerry-s.png,Sugar Activisms,,fetched,use
 best-buy,Best Buy,,62,bestbuy.com,logos/reference/best-buy.png,Bait Buy,,fetched,use
-big-lots,Big Lots,,26,bigcartel.com,logos/reference/big-lots.png,Big Waste,,fetched,use
-bj-s,BJ's,,22,bjs.com,logos/reference/bj-s.svg,Bulkware's,,fetched,use
+big-lots,Big Lots,,26,bigcartel.com,logos/reference/big-lots.png,Big Waste,,fetched,skip
+bj-s,BJ's,,22,bjs.com,logos/reference/bj-s.svg,Bulkware's,,fetched,skip
 blaze-pizza,Blaze Pizza,,12,blazepizza.com,logos/reference/blaze-pizza.png,Burnt Bread,,fetched,use
 bloomingdale-s,Bloomingdale's,,25,bloomingdales.com,logos/reference/bloomingdale-s.png,Bankrupting,,fetched,use
 books-a-million,Books-A-Million,,31,books-a-trillion.com,logos/reference/books-a-million.png,Dust-Collectors,,fetched,use
 boost-mobile,Boost Mobile,,31,boostmobile.com,logos/reference/boost-mobile.svg,Barely Mobile,,fetched,use
 boot-barn,Boot Barn,,16,bootbarn.com,logos/reference/boot-barn.svg,Cosplay Country,,fetched,use
 boscov-s,Boscov's,,30,boscovs.com,logos/reference/boscov-s.png,,,fetched,skip
-boxlunch,BoxLunch,,68,boxlunch.com,logos/reference/boxlunch.png,HipCulture,,fetched,use
-brighton-collectibles,Brighton Collectibles,,30,brighton.com,logos/reference/brighton-collectibles.png,Boomer Trinkets,,fetched,use
+boxlunch,BoxLunch,,68,boxlunch.com,logos/reference/boxlunch.png,HipCulture,,fetched,skip
+brighton-collectibles,Brighton Collectibles,,30,brighton.com,logos/reference/brighton-collectibles.png,Boomer Trinkets,,fetched,skip
 brooks-brothers,Brooks Brothers,,26,brooksbrothers.com,logos/reference/brooks-brothers.svg,Banker Uniforms,,fetched,use
 brooks-brothers-factory-store,Brooks Brothers Factory Store,,11,brooksbrothers.com,logos/reference/brooks-brothers-factory-store.svg,,,fetched,skip
 brow-arc,Brow Arc,,10,browarc.com,logos/reference/brow-arc.png,Brow Agony,,fetched,use
 brow-art-23,Brow Art 23,,28,browart23.com,logos/reference/brow-art-23.png,Waxing Distress Unit,,fetched,use
-buckle,Buckle,,131,buckle.com,logos/reference/buckle.svg,Bedazzled,,fetched,use
+buckle,Buckle,,131,buckle.com,logos/reference/buckle.svg,Bedazzled,,fetched,skip
 buffalo-wild-wings,Buffalo Wild Wings,,47,buffalowildwings.com,logos/reference/buffalo-wild-wings.png,Sodium Induced Coma,,fetched,use
-build-a-bear-workshop,Build-A-Bear Workshop,,97,buildabear.com,logos/reference/build-a-bear-workshop.png,Synthetic Stuffing,,fetched,use
+build-a-bear-workshop,Build-A-Bear Workshop,,97,buildabear.com,logos/reference/build-a-bear-workshop.png,Synthetic Stuffing,,fetched,skip
 burberry,Burberry,,25,burberry.com,logos/reference/burberry.png,Boastful,,fetched,use
 burger-king,Burger King,,45,bk.com,logos/reference/burger-king.png,Bland Patties,,fetched,use
 burlington,Burlington,,86,burlington.com,logos/reference/burlington.png,Bargainrack,,fetched,use
 california-pizza-kitchen,California Pizza Kitchen,,45,cpk.com,logos/reference/california-pizza-kitchen.png,Cardboard Dough Base,,fetched,use
 calvin-klein,Calvin Klein,,40,calvinklein.us,logos/reference/calvin-klein.png,Cotton Vanity,,fetched,use
-carter-s,Carter's,,83,carters.com,logos/reference/carter-s.png,Outgrown,,fetched,use
-casper,Casper,,14,casper.com,logos/reference/casper.png,Costly,,fetched,use
+carter-s,Carter's,,83,carters.com,logos/reference/carter-s.png,Outgrown,,fetched,skip
+casper,Casper,,14,casper.com,logos/reference/casper.png,Costly,,fetched,skip
 cato,Cato,,15,cato.org,logos/reference/cato.svg,,,fetched,skip
 champion,Champion,,10,champion.com.au,logos/reference/champion.png,Cheapskate,,fetched,use
-champs-sports,Champs Sports,,119,champssports.com,logos/reference/champs-sports.png,Coach Culture,,fetched,use
+champs-sports,Champs Sports,,119,champssports.com,logos/reference/champs-sports.png,Coach Culture,,fetched,skip
 chanel,Chanel,,10,chanel.com,logos/reference/chanel.png,Conspicuous,,fetched,use
-charleys-philly-steaks,Charleys Philly Steaks,,112,charleys.com,logos/reference/charleys-philly-steaks.png,Grease Trap Special,,fetched,use
-charlotte-russe,Charlotte Russe,,70,charlotterusse.com,logos/reference/charlotte-russe.png,Cheaply Stitched,,fetched,use
+charleys-philly-steaks,Charleys Philly Steaks,,112,charleys.com,logos/reference/charleys-philly-steaks.png,Grease Trap Special,,fetched,skip
+charlotte-russe,Charlotte Russe,,70,charlotterusse.com,logos/reference/charlotte-russe.png,Cheaply Stitched,,fetched,skip
 chick-fil-a,Chick-fil-A,,127,chick-fil-a.ca,logos/reference/chick-fil-a.svg,Chukl-E-heads,,fetched,use
-chico-s,Chico's,,68,chicos.com,logos/reference/chico-s.png,Archaic,,fetched,use
+chico-s,Chico's,,68,chicos.com,logos/reference/chico-s.png,Archaic,,fetched,skip
 chili-s,Chili's,,24,chilis.com,logos/reference/chili-s.png,Heartburn,,fetched,use
 china-max,China Max,,11,china-inv.cn,logos/reference/china-max.jpeg,,,fetched,skip
 china-wok,China Wok,,10,chinawok.app,logos/reference/china-wok.png,Cold Mein,,fetched,use
@@ -87,7 +87,7 @@ chipotle,Chipotle,,103,chipotle.com,logos/reference/chipotle.png,Extraguac,,fetc
 christopher-and-banks,Christopher & Banks,,29,christopherandbanks.com,logos/reference/christopher-and-banks.svg,Church & Clothes,,fetched,use
 chuck-e-cheese,Chuck E. Cheese,,13,chuckecheese.com,logos/reference/chuck-e-cheese.svg,Germ Pit Pizza,,fetched,use
 cinnabon,Cinnabon,,117,cinnabon.com,logos/reference/cinnabon.svg,CarbBomb,,fetched,use
-citi-trends,Citi Trends,,11,cititrends.com,logos/reference/citi-trends.png,Current Trash,,fetched,use
+citi-trends,Citi Trends,,11,cititrends.com,logos/reference/citi-trends.png,Current Trash,,fetched,skip
 claire-s,claire's,,277,claires.com,logos/reference/claire-s.svg,Infections,,fetched,use
 clarks,Clarks,,46,clarks.com,logos/reference/clarks.svg,Orthopedic,,fetched,use
 coach,Coach,,92,coach.com,logos/reference/coach.png,Clever,,fetched,use
@@ -105,65 +105,65 @@ crumbl-cookies,Crumbl Cookies,,13,crumblcookies.com,logos/reference/crumbl-cooki
 crunch-fitness,Crunch Fitness,,13,crunch.com,logos/reference/crunch-fitness.png,Grunt,,fetched,use
 cvs-pharmacy,CVS Pharmacy,,53,cvs.com,logos/reference/cvs-pharmacy.png,No Condoms,,fetched,use
 dairy-queen,Dairy Queen,,33,dairyqueen.com,logos/reference/dairy-queen.png,Diarrhea Queen,,fetched,use
-daiso-japan,Daiso Japan,,12,daiso.com.br,logos/reference/daiso-japan.png,Landfill,,fetched,use
-daniel-s,Daniel's,,12,jackdaniels.com,logos/reference/daniel-s.png,Poison Liquid,,fetched,use
-dave-and-buster-s,Dave & Buster's,,48,daveandbusters.com,logos/reference/dave-and-buster-s.svg,Drunk Arcade,,fetched,use
+daiso-japan,Daiso Japan,,12,daiso.com.br,logos/reference/daiso-japan.png,Landfill,,fetched,skip
+daniel-s,Daniel's,,12,jackdaniels.com,logos/reference/daniel-s.png,Poison Liquid,,fetched,skip
+dave-and-buster-s,Dave & Buster's,,48,daveandbusters.com,logos/reference/dave-and-buster-s.svg,Drunk Arcade,,fetched,skip
 david-yurman,David Yurman,,11,davidyurman.com,logos/reference/david-yurman.png,,,fetched,skip
 dick-s-sporting-goods,Dick's Sporting Goods,,168,dickssportinggoods.com,logos/reference/dick-s-sporting-goods.png,Jock's,,fetched,use
 dillard-s,Dillard's,,160,dillards.com,logos/reference/dillard-s.png,Depressed,,fetched,use
 din-tai-fung,Din Tai Fung,,10,dintaifung.com.sg,logos/reference/din-tai-fung.png,Two Hour Wait,,fetched,use
-dippin-dots,Dippin' Dots,,13,dippindots.com,logos/reference/dippin-dots.png,Fake Gourmet,,fetched,use
+dippin-dots,Dippin' Dots,,13,dippindots.com,logos/reference/dippin-dots.png,Fake Gourmet,,fetched,skip
 disney-store,Disney Store,,27,shopdisney.com,logos/reference/disney-store.svg,Debt Kingdom,,fetched,use
 dollar-general,Dollar General,,39,dollargeneral.com,logos/reference/dollar-general.png,Dollar Specific,,fetched,use
 dollar-tree,Dollar Tree,,115,dollartree.com,logos/reference/dollar-tree.png,Dollar Free,,fetched,use
 domino-s,Domino's,,34,dominos.com.au,logos/reference/domino-s.png,Diarrhea,,fetched,use
 dr-martens,Dr. Martens,,13,drmartens.com,logos/reference/dr-martens.svg,Mr. Blister Boots,,fetched,use
 dry-goods,Dry Goods,,14,marshalldrygoods.com,logos/reference/dry-goods.svg,,,fetched,skip
-dsw,DSW,,45,dsw.com,logos/reference/dsw.svg,DeadStock,,fetched,use
+dsw,DSW,,45,dsw.com,logos/reference/dsw.svg,DeadStock,,fetched,skip
 dtlr,DTLR,,24,dtlr.com,logos/reference/dtlr.png,,,fetched,skip
-dunham-s-sports,Dunham's Sports,,38,dunhams.com.au,logos/reference/dunham-s-sports.png,Discounted Shotguns,,fetched,use
+dunham-s-sports,Dunham's Sports,,38,dunhams.com.au,logos/reference/dunham-s-sports.png,Discounted Shotguns,,fetched,skip
 dunkin,Dunkin',,44,dunkindonuts.com,logos/reference/dunkin.svg,Diabetes,,fetched,use
-dxl-men-s-apparel,DXL Men's Apparel,,10,destinationxl.com,logos/reference/dxl-men-s-apparel.svg,Discount Tent Store,,fetched,use
-earthbound-trading-company,Earthbound Trading Company,,19,earthboundtrading.com,logos/reference/earthbound-trading-company.png,Fake Hippie Trinkets,,fetched,use
+dxl-men-s-apparel,DXL Men's Apparel,,10,destinationxl.com,logos/reference/dxl-men-s-apparel.svg,Discount Tent Store,,fetched,skip
+earthbound-trading-company,Earthbound Trading Company,,19,earthboundtrading.com,logos/reference/earthbound-trading-company.png,Fake Hippie Trinkets,,fetched,skip
 ecco,Ecco,,31,ecco.com,logos/reference/ecco.svg,Ergonomic,,fetched,use
 eddie-bauer,Eddie Bauer,,57,eddiebauer.com,logos/reference/eddie-bauer.png,Expired Outdoor,,fetched,use
 eddie-bauer-outlet,Eddie Bauer Outlet,,13,eddiebauer.com,logos/reference/eddie-bauer-outlet.png,,,fetched,skip
-european-wax-center,European Wax Center,,19,waxcenter.com,logos/reference/european-wax-center.svg,Explicit Hair Removal,,fetched,use
+european-wax-center,European Wax Center,,19,waxcenter.com,logos/reference/european-wax-center.svg,Explicit Hair Removal,,fetched,skip
 evereve,Evereve,,17,evereve.com,logos/reference/evereve.png,,,fetched,skip
-everything-but-water,Everything But Water,,16,everythingbutwater.com,logos/reference/everything-but-water.png,Excessive Bikini Taxes,,fetched,use
+everything-but-water,Everything But Water,,16,everythingbutwater.com,logos/reference/everything-but-water.png,Excessive Bikini Taxes,,fetched,skip
 express,Express,,143,express.com,logos/reference/express.png,Exhausted,,fetched,use
 express-factory-outlet,Express Factory Outlet,,13,expressfactoryoutlet.com,logos/reference/express-factory-outlet.png,,,fetched,skip
 express-men,Express Men,,18,express-scripts.com,logos/reference/express-men.png,,,fetched,skip
 fabletics,Fabletics,,29,fabletics.com,logos/reference/fabletics.png,Falsehood,,fetched,use
 family-dollar,Family Dollar,,36,familydollar.com,logos/reference/family-dollar.png,Family Crisis,,fetched,use
-famous-footwear,Famous Footwear,,90,famousfootwear.com,logos/reference/famous-footwear.svg,,,fetched,skip
-famous-footwear-outlet,Famous Footwear Outlet,,13,famousfootwear.com,logos/reference/famous-footwear-outlet.svg,Fake Discount Shoes,,fetched,use
-fast-fix,Fast-Fix,,18,fast-fix.com,logos/reference/fast-fix.png,Band-Age,,fetched,use
+famous-footwear,Famous Footwear,,90,famousfootwear.com,logos/reference/famous-footwear.svg,,,fetched,use
+famous-footwear-outlet,Famous Footwear Outlet,,13,famousfootwear.com,logos/reference/famous-footwear-outlet.svg,Fake Discount Shoes,,fetched,skip
+fast-fix,Fast-Fix,,18,fast-fix.com,logos/reference/fast-fix.png,Band-Age,,fetched,skip
 fedex-office,FedEx Office,,10,fedex.com,logos/reference/fedex-office.svg,Overnight,,fetched,use
 fine-wine-and-good-spirits,Fine Wine & Good Spirits,,12,abcfws.com,logos/reference/fine-wine-and-good-spirits.png,,,fetched,skip
-finish-line,Finish Line,,127,finishline.com,logos/reference/finish-line.svg,,,fetched,use
+finish-line,Finish Line,,127,finishline.com,logos/reference/finish-line.svg,,,fetched,skip
 firehouse-subs,Firehouse Subs,,22,firehousesubs.com,logos/reference/firehouse-subs.png,,,fetched,use
 five-below,Five Below,,78,fivebelow.com,logos/reference/five-below.png,,,fetched,use
 five-guys,Five Guys,,56,fiveguys.com,logos/reference/five-guys.png,,,fetched,use
 foot-locker,Foot Locker,,175,footlocker.com,logos/reference/foot-locker.svg,,,fetched,use
-footaction,Footaction,,12,footaction.com,logos/reference/footaction.svg,,,fetched,use
+footaction,Footaction,,12,footaction.com,logos/reference/footaction.svg,,,fetched,skip
 forever-21,Forever 21,,120,forever21.com,logos/reference/forever-21.svg,,,fetched,use
 fossil,Fossil,,31,fossil.com,logos/reference/fossil.png,,,fetched,use
 fragrance-outlet,Fragrance Outlet,,24,fragranceoutlet.com,logos/reference/fragrance-outlet.svg,,,fetched,use
-francesca-s,Francesca's,,94,francescas.com,logos/reference/francesca-s.png,,,fetched,use
+francesca-s,Francesca's,,94,francescas.com,logos/reference/francesca-s.png,,,fetched,skip
 free-people,Free People,,35,freepeople.com,logos/reference/free-people.svg,,,fetched,skip
-fye,FYE,,52,fye.com,logos/reference/fye.svg,,,fetched,use
+fye,FYE,,52,fye.com,logos/reference/fye.svg,,,fetched,skip
 g-by-guess,G by Guess,,10,gfuel.com,logos/reference/g-by-guess.png,,,fetched,use
 gamestop,GameStop,,180,gamestop.com,logos/reference/gamestop.png,,,fetched,use
 gap,Gap,,85,gap.com,logos/reference/gap.svg,,,fetched,use
-gap-factory,Gap Factory,,25,gapfactory.com,logos/reference/gap-factory.png,,,fetched,use
+gap-factory,Gap Factory,,25,gapfactory.com,logos/reference/gap-factory.png,,,fetched,skip
 gap-kids,Gap Kids,,23,gap.com,logos/reference/gap-kids.svg,,,fetched,skip
 gap-outlet,Gap Outlet,,11,gap.com,logos/reference/gap-outlet.svg,,,fetched,skip
-garage,Garage,,36,garage.vc,logos/reference/garage.jpeg,,,fetched,use
-giant,Giant,,15,giant.vc,logos/reference/giant.svg,,,fetched,use
-gloria-jean-s,Gloria Jean's,,12,gloriajeans.com.au,logos/reference/gloria-jean-s.png,,,fetched,use
+garage,Garage,,36,garage.vc,logos/reference/garage.jpeg,,,fetched,skip
+giant,Giant,,15,giant.vc,logos/reference/giant.svg,,,fetched,skip
+gloria-jean-s,Gloria Jean's,,12,gloriajeans.com.au,logos/reference/gloria-jean-s.png,,,fetched,skip
 gnc,GNC,,202,gnc.com,logos/reference/gnc.png,,,fetched,use
-go-games-and-toys,Go! Games & Toys,,26,epicgames.com,logos/reference/go-games-and-toys.svg,,,fetched,use
+go-games-and-toys,Go! Games & Toys,,26,epicgames.com,logos/reference/go-games-and-toys.svg,,,fetched,skip
 godiva-chocolatier,Godiva Chocolatier,,15,godiva.com,logos/reference/godiva-chocolatier.png,,,fetched,use
 goodwill,Goodwill,,28,goodwill.org,logos/reference/goodwill.svg,,,fetched,use
 great-american-cookies,Great American Cookies,,48,greatamericancookies.com,logos/reference/great-american-cookies.png,,,fetched,use
@@ -171,308 +171,334 @@ great-clips,Great Clips,,46,greatclips.com,logos/reference/great-clips.png,,,fet
 gucci,Gucci,,26,gucci.com,logos/reference/gucci.svg,,,fetched,use
 guess,Guess,,49,guess.com,logos/reference/guess.png,,,fetched,use
 guitar-center,Guitar Center,,17,guitarcenter.com,logos/reference/guitar-center.svg,,,fetched,use
-gymboree,Gymboree,,30,gymboree.com,logos/reference/gymboree.svg,,,fetched,use
+gymboree,Gymboree,,30,gymboree.com,logos/reference/gymboree.svg,,,fetched,skip
 h-and-m,H&M,,212,hm.com,logos/reference/h-and-m.svg,,,fetched,use
 hallmark,Hallmark,,78,hallmark.com,logos/reference/hallmark.svg,,,fetched,use
 hanesbrands,Hanesbrands,,17,hanescareers.com,logos/reference/hanesbrands.svg,,,fetched,use
-harbor-freight-tools,Harbor Freight Tools,,39,harborfreight.com,logos/reference/harbor-freight-tools.png,,,fetched,use
-helzberg-diamonds,Helzberg Diamonds,,57,helzberg.com,logos/reference/helzberg-diamonds.png,,,fetched,use
+harbor-freight-tools,Harbor Freight Tools,,39,harborfreight.com,logos/reference/harbor-freight-tools.png,,,fetched,skip
+helzberg-diamonds,Helzberg Diamonds,,57,helzberg.com,logos/reference/helzberg-diamonds.png,,,fetched,skip
 herm-s,Hermès,,14,hermes.com,logos/reference/herm-s.svg,,,fetched,use
-hibbett-sports,Hibbett Sports,,35,hibbett.com,logos/reference/hibbett-sports.svg,,,fetched,use
-hobby-lobby,Hobby Lobby,,48,hobbylobby.com,logos/reference/hobby-lobby.png,,,fetched,use
+hibbett-sports,Hibbett Sports,,35,hibbett.com,logos/reference/hibbett-sports.svg,,,fetched,skip
+hobby-lobby,Hobby Lobby,,48,hobbylobby.com,logos/reference/hobby-lobby.png,,,fetched,skip
 hollister,Hollister,,143,hollister.com,logos/reference/hollister.png,,,fetched,use
 homegoods,HomeGoods,,49,homegoods.com,logos/reference/homegoods.png,,,fetched,use
-hot-dog-on-a-stick,Hot Dog on a Stick,,16,hotdogonastick.com,logos/reference/hot-dog-on-a-stick.jpeg,,,fetched,use
-hot-topic,Hot Topic,,196,hottopic.com,logos/reference/hot-topic.svg,,,fetched,use
+hot-dog-on-a-stick,Hot Dog on a Stick,,16,hotdogonastick.com,logos/reference/hot-dog-on-a-stick.jpeg,,,fetched,skip
+hot-topic,Hot Topic,,196,hottopic.com,logos/reference/hot-topic.svg,,,fetched,skip
 house-of-hoops,House of Hoops,,19,houseofhr.com,logos/reference/house-of-hoops.svg,,,fetched,skip
 hugo-boss,Hugo Boss,,37,hugoboss.com,logos/reference/hugo-boss.png,,,fetched,use
 h-agen-dazs,Häagen-Dazs,,38,haagendazs.us,logos/reference/h-agen-dazs.png,,,fetched,use
 icing,Icing,,39,icing.blog,logos/reference/icing.svg,,,fetched,skip
 ihop,IHOP,,13,ihop.com,logos/reference/ihop.png,,,fetched,use
-indochino,Indochino,,10,indochino.com,logos/reference/indochino.png,,,fetched,use
-intimissimi,Intimissimi,,16,intimissimi.com.br,,,,missing,use
+indochino,Indochino,,10,indochino.com,logos/reference/indochino.png,,,fetched,skip
+intimissimi,Intimissimi,,16,intimissimi.com.br,,,,missing,skip
 it-sugar,IT'SUGAR,,24,itsugar.com,logos/reference/it-sugar.png,,,fetched,use
 j-crew,J.Crew,,73,jcrew.com,logos/reference/j-crew.svg,,,fetched,use
-j-crew-factory,J.Crew Factory,,10,jcrew.com,logos/reference/j-crew-factory.svg,,,fetched,skip
+j-crew-factory,J.Crew Factory,,10,jcrew.com,logos/reference/j-crew-factory.svg,,,fetched,use
 j-jill,J.Jill,,55,jjill.com,logos/reference/j-jill.png,,,fetched,skip
 jamba,Jamba,,52,jamba.com,logos/reference/jamba.svg,,,fetched,use
-james-avery-jewelry,James Avery Jewelry,,32,jamesavery.com,logos/reference/james-avery-jewelry.png,,,fetched,use
+james-avery-jewelry,James Avery Jewelry,,32,jamesavery.com,logos/reference/james-avery-jewelry.png,,,fetched,skip
 janie-and-jack,Janie & Jack,,32,janieandjack.com,logos/reference/janie-and-jack.png,,,fetched,skip
-jared,Jared,,10,jared.com,logos/reference/jared.svg,,,fetched,use
+jared,Jared,,10,jared.com,logos/reference/jared.svg,,,fetched,skip
 jcpenney,JCPenney,,369,jcpenney.com,logos/reference/jcpenney.svg,,,fetched,use
-jd-sports,JD Sports,,47,jdsports.com.sg,logos/reference/jd-sports.png,,,fetched,use
+jd-sports,JD Sports,,47,jdsports.com.sg,logos/reference/jd-sports.png,,,fetched,skip
 jersey-mike-s-subs,Jersey Mike's Subs,,24,jerseymikes.com,logos/reference/jersey-mike-s-subs.svg,,,fetched,use
 jimmy-choo,Jimmy Choo,,10,jimmychoo.com,logos/reference/jimmy-choo.svg,,,fetched,use
-jimmy-jazz,Jimmy Jazz,,15,jimmy-jazz.com,logos/reference/jimmy-jazz.png,,,fetched,use
+jimmy-jazz,Jimmy Jazz,,15,jimmy-jazz.com,logos/reference/jimmy-jazz.png,,,fetched,skip
 jimmy-john-s,Jimmy John's,,24,jimmyjohns.com,logos/reference/jimmy-john-s.png,,,fetched,use
 jockey,Jockey,,17,jockey.in,logos/reference/jockey.png,,,fetched,use
-johnny-rockets,Johnny Rockets,,22,johnnyrockets.com,logos/reference/johnny-rockets.png,,,fetched,use
+johnny-rockets,Johnny Rockets,,22,johnnyrockets.com,logos/reference/johnny-rockets.png,,,fetched,skip
 johnny-was,Johnny Was,,15,johnnywas.com,logos/reference/johnny-was.png,,,fetched,skip
 johnston-and-murphy,Johnston & Murphy,,34,johnstonmurphy.com,logos/reference/johnston-and-murphy.png,,,fetched,use
 jos-a-bank,JoS. A. Bank,,27,josbank.com,logos/reference/jos-a-bank.png,,,fetched,use
-journeys,Journeys,,218,journeys.com,logos/reference/journeys.png,,,fetched,use
+journeys,Journeys,,218,journeys.com,logos/reference/journeys.png,,,fetched,skip
 journeys-kidz,Journeys Kidz,,56,journeys.com,logos/reference/journeys-kidz.png,,,fetched,skip
 justice,Justice,,46,justice.cz,logos/reference/justice.svg,,,fetched,skip
 kate-spade-new-york,Kate Spade New York,,57,katespade.com,logos/reference/kate-spade-new-york.svg,,,fetched,use
 kay-jewelers,Kay Jewelers,,224,kay.com,logos/reference/kay-jewelers.svg,,,fetched,use
-kelly-s-cajun-grill,Kelly's Cajun Grill,,12,kcg.ae,logos/reference/kelly-s-cajun-grill.png,,,fetched,use
-kendra-scott,Kendra Scott,,24,kendrascott.com,logos/reference/kendra-scott.png,,,fetched,use
+kelly-s-cajun-grill,Kelly's Cajun Grill,,12,kcg.ae,logos/reference/kelly-s-cajun-grill.png,,,fetched,skip
+kendra-scott,Kendra Scott,,24,kendrascott.com,logos/reference/kendra-scott.png,,,fetched,skip
 kfc,KFC,,17,kfc.com,logos/reference/kfc.svg,,,fetched,use
-kids-foot-locker,Kids Foot Locker,,73,kidsfootlocker.com,logos/reference/kids-foot-locker.svg,,,fetched,use
+kids-foot-locker,Kids Foot Locker,,73,kidsfootlocker.com,logos/reference/kids-foot-locker.svg,,,fetched,skip
 kiehl-s,Kiehl's,,18,kiehls.com,logos/reference/kiehl-s.svg,,,fetched,use
 kirkland-s,Kirkland's,,25,kirklands.com,logos/reference/kirkland-s.png,,,fetched,use
 kitchen-collection,Kitchen Collection,,10,kitchen-collection.com,logos/reference/kitchen-collection.png,,,fetched,use
 kohl-s,Kohl's,,80,kohls.com,logos/reference/kohl-s.svg,,,fetched,use
 kroger,Kroger,,12,kroger.com,logos/reference/kroger.png,,,fetched,use
-l-and-l-hawaiian-barbecue,L&L Hawaiian Barbecue,,10,bbqmissionviejo.com,logos/reference/l-and-l-hawaiian-barbecue.png,,,fetched,use
-l-occitane,L'Occitane,,38,loccitane.com,logos/reference/l-occitane.svg,,,fetched,use
-l-l-bean,L.L.Bean,,15,llbean.com,logos/reference/l-l-bean.png,,,fetched,use
+l-and-l-hawaiian-barbecue,L&L Hawaiian Barbecue,,10,bbqmissionviejo.com,logos/reference/l-and-l-hawaiian-barbecue.png,,,fetched,skip
+l-occitane,L'Occitane,,38,loccitane.com,logos/reference/l-occitane.svg,,,fetched,skip
+l-l-bean,L.L.Bean,,15,llbean.com,logos/reference/l-l-bean.png,,,fetched,skip
 la-fitness,LA Fitness,,16,lafitness.com,logos/reference/la-fitness.png,,,fetched,use
 lacoste,Lacoste,,34,lacoste.com,logos/reference/lacoste.png,,,fetched,use
 lane-bryant,Lane Bryant,,60,lanebryant.com,logos/reference/lane-bryant.svg,,,fetched,skip
-le-creuset,Le Creuset,,17,lecreuset.com,logos/reference/le-creuset.png,,,fetched,use
-lego,Lego,,56,lego.com,logos/reference/lego.svg,,,fetched,use
+le-creuset,Le Creuset,,17,lecreuset.com,logos/reference/le-creuset.png,,,fetched,skip
+lego,Lego,,56,lego.com,logos/reference/lego.svg,,,fetched,skip
 lenscrafters,LensCrafters,,174,lenscrafters.com,logos/reference/lenscrafters.png,,,fetched,use
 levi-s,Levi's,,54,levi.com,logos/reference/levi-s.svg,,,fetched,use
 levi-s-outlet,Levi's Outlet,,12,levi.com,logos/reference/levi-s-outlet.svg,,,fetched,skip
 lids,Lids,,209,lids.com,logos/reference/lids.svg,,,fetched,use
 lindt,Lindt,,13,lindt.com,logos/reference/lindt.png,,,fetched,use
-little-caesars,Little Caesars,,24,littlecaesars.com,logos/reference/little-caesars.png,,,fetched,use
+little-caesars,Little Caesars,,24,littlecaesars.com,logos/reference/little-caesars.png,,,fetched,skip
 loft,Loft,,96,loft.com.br,logos/reference/loft.jpeg,,,fetched,skip
-lolli-and-pops,Lolli and Pops,,21,lolli.com,logos/reference/lolli-and-pops.svg,,,fetched,use
-longhorn-steakhouse,LongHorn Steakhouse,,15,longhornsteakhouse.com,logos/reference/longhorn-steakhouse.svg,,,fetched,use
-longs-drugs,Longs Drugs,,10,longs.com,logos/reference/longs-drugs.png,,,fetched,use
+lolli-and-pops,Lolli and Pops,,21,lolli.com,logos/reference/lolli-and-pops.svg,,,fetched,skip
+longhorn-steakhouse,LongHorn Steakhouse,,15,longhornsteakhouse.com,logos/reference/longhorn-steakhouse.svg,,,fetched,skip
+longs-drugs,Longs Drugs,,10,longs.com,logos/reference/longs-drugs.png,,,fetched,skip
 louis-vuitton,Louis Vuitton,,31,louisvuitton.com,logos/reference/louis-vuitton.svg,,,fetched,use
-lovesac,LoveSac,,37,lovesac.com,logos/reference/lovesac.png,,,fetched,use
-lovisa,Lovisa,,48,lovisa.com.au,logos/reference/lovisa.png,,,fetched,use
+lovesac,LoveSac,,37,lovesac.com,logos/reference/lovesac.png,,,fetched,skip
+lovisa,Lovisa,,48,lovisa.com.au,logos/reference/lovisa.png,,,fetched,skip
 lowe-s,Lowe's,,11,lowes.com,logos/reference/lowe-s.svg,,,fetched,use
 lucky-brand,Lucky Brand,,42,luckybrand.com,logos/reference/lucky-brand.png,,,fetched,use
 lululemon,Lululemon,,78,lululemon.com,logos/reference/lululemon.png,,,fetched,use
-lush,Lush,,62,lush.com,logos/reference/lush.svg,,,fetched,use
+lush,Lush,,62,lush.com,logos/reference/lush.svg,,,fetched,skip
 mac-cosmetics,MAC Cosmetics,,41,maccosmetics.fr,logos/reference/mac-cosmetics.svg,,,fetched,use
 macy-s,Macy's,,305,macys.com,logos/reference/macy-s.png,,,fetched,use
-madewell,Madewell,,27,madewell.com,logos/reference/madewell.png,,,fetched,use
+madewell,Madewell,,27,madewell.com,logos/reference/madewell.png,,,fetched,skip
 madison-reed,Madison Reed,,10,madison-reed.com,logos/reference/madison-reed.jpeg,,,fetched,skip
-maggiano-s-little-italy,Maggiano's Little Italy,,13,maggianos.com,logos/reference/maggiano-s-little-italy.png,,,fetched,use
+maggiano-s-little-italy,Maggiano's Little Italy,,13,maggianos.com,logos/reference/maggiano-s-little-italy.png,,,fetched,skip
 mango,Mango,,13,mango.com,logos/reference/mango.png,,,fetched,use
-marble-slab-creamery,Marble Slab Creamery,,10,marbleslab.com,logos/reference/marble-slab-creamery.svg,,,fetched,use
+marble-slab-creamery,Marble Slab Creamery,,10,marbleslab.com,logos/reference/marble-slab-creamery.svg,,,fetched,skip
 marc-jacobs,Marc Jacobs,,17,marcjacobs.com,logos/reference/marc-jacobs.png,,,fetched,use
 marshalls,Marshalls,,73,marshalls.com,logos/reference/marshalls.png,,,fetched,use
-marugame-udon,Marugame Udon,,10,marugameudon.com,logos/reference/marugame-udon.png,,,fetched,use
-massage-envy,Massage Envy,,21,massageenvy.com,logos/reference/massage-envy.png,,,fetched,use
-mastercuts,Mastercuts,,28,mastercuts.ae,logos/reference/mastercuts.png,,,fetched,use
+marugame-udon,Marugame Udon,,10,marugameudon.com,logos/reference/marugame-udon.png,,,fetched,skip
+massage-envy,Massage Envy,,21,massageenvy.com,logos/reference/massage-envy.png,,,fetched,skip
+mastercuts,Mastercuts,,28,mastercuts.ae,logos/reference/mastercuts.png,,,fetched,skip
 mattress-firm,Mattress Firm,,24,mattressfirm.com,logos/reference/mattress-firm.svg,,,fetched,use
-maurices,Maurices,,111,maurices.com,logos/reference/maurices.svg,,,fetched,use
+maurices,Maurices,,111,maurices.com,logos/reference/maurices.svg,,,fetched,skip
 mcdonald-s,McDonald's,,43,mcdonalds.com,logos/reference/mcdonald-s.png,,,fetched,use
 men-s-wearhouse,Men's Wearhouse,,43,menswearhouse.com,logos/reference/men-s-wearhouse.png,,,fetched,use
-menchie-s,Menchie's,,11,menchies.com,logos/reference/menchie-s.png,,,fetched,use
-merle-norman,Merle Norman,,14,merlenorman.com,logos/reference/merle-norman.png,,,fetched,use
-merrell,Merrell,,13,merrell.com,logos/reference/merrell.png,,,fetched,use
+menchie-s,Menchie's,,11,menchies.com,logos/reference/menchie-s.png,,,fetched,skip
+merle-norman,Merle Norman,,14,merlenorman.com,logos/reference/merle-norman.png,,,fetched,skip
+merrell,Merrell,,13,merrell.com,logos/reference/merrell.png,,,fetched,skip
 metro-by-t-mobile,Metro by T-Mobile,,47,metropcs.com,logos/reference/metro-by-t-mobile.svg,,,fetched,use
 michael-kors,Michael Kors,,90,michaelkors.com,logos/reference/michael-kors.png,,,fetched,use
 michaels,Michaels,,48,michaels.com,logos/reference/michaels.svg,,,fetched,use
 microsoft-store,Microsoft Store,,10,microsoft.com,logos/reference/microsoft-store.png,,,fetched,use
-miniso,Miniso,,55,miniso.com,logos/reference/miniso.png,,,fetched,use
-motherhood-maternity,Motherhood Maternity,,18,motherhood.com,logos/reference/motherhood-maternity.png,,,fetched,use
-movado,Movado,,12,movado.com,logos/reference/movado.svg,,,fetched,use
-mrs-fields,Mrs. Fields,,15,mrsfields.com,logos/reference/mrs-fields.png,,,fetched,use
+miniso,Miniso,,55,miniso.com,logos/reference/miniso.png,,,fetched,skip
+motherhood-maternity,Motherhood Maternity,,18,motherhood.com,logos/reference/motherhood-maternity.png,,,fetched,skip
+movado,Movado,,12,movado.com,logos/reference/movado.svg,,,fetched,skip
+mrs-fields,Mrs. Fields,,15,mrsfields.com,logos/reference/mrs-fields.png,,,fetched,skip
 nautica,Nautica,,23,nautica.com,logos/reference/nautica.svg,,,fetched,use
 neiman-marcus,Neiman Marcus,,23,neimanmarcus.com,logos/reference/neiman-marcus.png,,,fetched,use
-nespresso,Nespresso,,16,nespresso.com,logos/reference/nespresso.png,,,fetched,use
+nespresso,Nespresso,,16,nespresso.com,logos/reference/nespresso.png,,,fetched,skip
 new-balance,New Balance,,23,newbalance.com,logos/reference/new-balance.png,,,fetched,use
 nike,Nike,,38,nike.com,logos/reference/nike.png,,,fetched,use
-nike-factory-store,Nike Factory Store,,30,nike.com,logos/reference/nike-factory-store.png,,,fetched,use
-noodles-and-company,Noodles & Company,,18,noodles.com,logos/reference/noodles-and-company.svg,,,fetched,use
+nike-factory-store,Nike Factory Store,,30,nike.com,logos/reference/nike-factory-store.png,,,fetched,skip
+noodles-and-company,Noodles & Company,,18,noodles.com,logos/reference/noodles-and-company.svg,,,fetched,skip
 nordstrom,Nordstrom,,61,nordstrom.com,logos/reference/nordstrom.svg,,,fetched,use
 nordstrom-rack,Nordstrom Rack,,34,nordstromrack.com,logos/reference/nordstrom-rack.svg,,,fetched,use
-nori-japan,Nori Japan,,12,nori-japan.com,logos/reference/nori-japan.png,,,fetched,use
-nothing-bundt-cakes,Nothing Bundt Cakes,,12,nothingbundtcakes.com,logos/reference/nothing-bundt-cakes.png,,,fetched,use
+nori-japan,Nori Japan,,12,nori-japan.com,logos/reference/nori-japan.png,,,fetched,skip
+nothing-bundt-cakes,Nothing Bundt Cakes,,12,nothingbundtcakes.com,logos/reference/nothing-bundt-cakes.png,,,fetched,skip
 o-reilly-auto-parts,O'Reilly Auto Parts,,11,oreillyauto.com,logos/reference/o-reilly-auto-parts.svg,,,fetched,use
 oakley,Oakley,,47,oakley.com,logos/reference/oakley.png,,,fetched,use
-oakley-vault,Oakley Vault,,11,oakley.com,logos/reference/oakley-vault.png,,,fetched,use
+oakley-vault,Oakley Vault,,11,oakley.com,logos/reference/oakley-vault.png,,,fetched,skip
 office-depot,Office Depot,,12,officedepot.com,logos/reference/office-depot.png,,,fetched,use
 officemax,OfficeMax,,15,officedepot.com,logos/reference/officemax.png,,,fetched,use
 old-navy,Old Navy,,171,oldnavy.com,logos/reference/old-navy.png,,,fetched,use
-old-navy-outlet,Old Navy Outlet,,12,oldnavy.com,logos/reference/old-navy-outlet.png,,,fetched,use
+old-navy-outlet,Old Navy Outlet,,12,oldnavy.com,logos/reference/old-navy-outlet.png,,,fetched,skip
 olive-garden,Olive Garden,,17,olivegarden.com,logos/reference/olive-garden.svg,,,fetched,use
-ollie-s-bargain-outlet,Ollie's Bargain Outlet,,26,ollies.com,logos/reference/ollie-s-bargain-outlet.png,,,fetched,use
-orange-julius,Orange Julius,,12,orangejulius.com,logos/reference/orange-julius.png,,,fetched,use
+ollie-s-bargain-outlet,Ollie's Bargain Outlet,,26,ollies.com,logos/reference/ollie-s-bargain-outlet.png,,,fetched,skip
+orange-julius,Orange Julius,,12,orangejulius.com,logos/reference/orange-julius.png,,,fetched,skip
 orangetheory-fitness,Orangetheory Fitness,,25,orangetheory.com,logos/reference/orangetheory-fitness.svg,,,fetched,use
-oshkosh-b-gosh,OshKosh B'gosh,,32,oshkosh.com,logos/reference/oshkosh-b-gosh.svg,,,fetched,use
-outback-steakhouse,Outback Steakhouse,,17,outback.com,logos/reference/outback-steakhouse.png,,,fetched,use
+oshkosh-b-gosh,OshKosh B'gosh,,32,oshkosh.com,logos/reference/oshkosh-b-gosh.svg,,,fetched,skip
+outback-steakhouse,Outback Steakhouse,,17,outback.com,logos/reference/outback-steakhouse.png,,,fetched,skip
 p-f-chang-s,P.F. Chang's,,44,pfchangsmexico.com.mx,logos/reference/p-f-chang-s.png,,,fetched,use
-pacsun,PacSun,,129,pacsun.com,logos/reference/pacsun.png,,,fetched,use
+pacsun,PacSun,,129,pacsun.com,logos/reference/pacsun.png,,,fetched,skip
 panda-express,Panda Express,,108,pandaexpress.com,logos/reference/panda-express.svg,,,fetched,use
 pandora,Pandora,,130,pandora.com,logos/reference/pandora.svg,,,fetched,use
 panera-bread,Panera Bread,,65,panerabread.com,logos/reference/panera-bread.png,,,fetched,use
 papa-john-s,Papa John's,,13,papajohns.com,logos/reference/papa-john-s.png,,,fetched,use
-party-city,Party City,,12,partycity.com,logos/reference/party-city.svg,,,fetched,use
-pearle-vision,Pearle Vision,,17,pearlevision.com,logos/reference/pearle-vision.png,,,fetched,use
-peloton,Peloton,,17,onepeloton.com,logos/reference/peloton.svg,,,fetched,use
-pepper-palace,Pepper Palace,,12,pepperpalace.com,logos/reference/pepper-palace.png,,,fetched,use
-perfumania,Perfumania,,42,perfumania.com,logos/reference/perfumania.png,,,fetched,use
+party-city,Party City,,12,partycity.com,logos/reference/party-city.svg,,,fetched,skip
+pearle-vision,Pearle Vision,,17,pearlevision.com,logos/reference/pearle-vision.png,,,fetched,skip
+peloton,Peloton,,17,onepeloton.com,logos/reference/peloton.svg,,,fetched,skip
+pepper-palace,Pepper Palace,,12,pepperpalace.com,logos/reference/pepper-palace.png,,,fetched,skip
+perfumania,Perfumania,,42,perfumania.com,logos/reference/perfumania.png,,,fetched,skip
 perry-ellis,Perry Ellis,,17,perryellis.com,logos/reference/perry-ellis.png,,,fetched,use
 pet-supplies-plus,Pet Supplies Plus,,10,petsuppliesplus.com,logos/reference/pet-supplies-plus.png,,,fetched,use
 petco,Petco,,51,petco.com,logos/reference/petco.svg,,,fetched,use
 petsmart,PetSmart,,37,petsmart.ca,logos/reference/petsmart.svg,,,fetched,use
-piercing-pagoda,Piercing Pagoda,,17,piercing-street.fr,logos/reference/piercing-pagoda.png,,,fetched,use
-piercings-n-more,Piercings N' More,,11,purelypiercings.co.nz,logos/reference/piercings-n-more.png,,,fetched,use
+piercing-pagoda,Piercing Pagoda,,17,piercing-street.fr,logos/reference/piercing-pagoda.png,,,fetched,skip
+piercings-n-more,Piercings N' More,,11,purelypiercings.co.nz,logos/reference/piercings-n-more.png,,,fetched,skip
 pink,Pink,,78,pinkgellac.com,logos/reference/pink.svg,,,fetched,use
 pizza-hut,Pizza Hut,,24,pizzahut.com,logos/reference/pizza-hut.svg,,,fetched,use
 planet-fitness,Planet Fitness,,109,planetfitness.com,logos/reference/planet-fitness.svg,,,fetched,use
 polo-ralph-lauren,Polo Ralph Lauren,,41,lacanadalifestyle.com,logos/reference/polo-ralph-lauren.png,,,fetched,use
-polo-ralph-lauren-factory-store,Polo Ralph Lauren Factory Store,,11,ralphlauren.com,logos/reference/polo-ralph-lauren-factory-store.png,,,fetched,use
-pop-mart,Pop Mart,,10,popmart.com,logos/reference/pop-mart.png,,,fetched,use
+polo-ralph-lauren-factory-store,Polo Ralph Lauren Factory Store,,11,ralphlauren.com,logos/reference/polo-ralph-lauren-factory-store.png,,,fetched,skip
+pop-mart,Pop Mart,,10,popmart.com,logos/reference/pop-mart.png,,,fetched,skip
 popeyes,Popeyes,,52,popeyes.com,logos/reference/popeyes.svg,,,fetched,use
 potbelly,Potbelly,,12,potbelly.com,logos/reference/potbelly.png,,,fetched,use
 pottery-barn,Pottery Barn,,46,potterybarn.com,logos/reference/pottery-barn.png,,,fetched,use
-pottery-barn-kids,Pottery Barn Kids,,11,potterybarn.com,logos/reference/pottery-barn-kids.png,,,fetched,use
+pottery-barn-kids,Pottery Barn Kids,,11,potterybarn.com,logos/reference/pottery-barn-kids.png,,,fetched,skip
 prada,Prada,,13,prada.com,logos/reference/prada.png,,,fetched,use
-pretzelmaker,Pretzelmaker,,17,pretzelmaker.com,logos/reference/pretzelmaker.svg,,,fetched,use
-primark,Primark,,22,primark.com,logos/reference/primark.png,,,fetched,use
-pro-image-sports,Pro Image Sports,,32,proimagesports.com,logos/reference/pro-image-sports.png,,,fetched,use
-psycho-bunny,Psycho Bunny,,24,psychobunny.com,logos/reference/psycho-bunny.svg,,,fetched,use
-publix,Publix,,24,publix.com,logos/reference/publix.svg,,,fetched,use
+pretzelmaker,Pretzelmaker,,17,pretzelmaker.com,logos/reference/pretzelmaker.svg,,,fetched,skip
+primark,Primark,,22,primark.com,logos/reference/primark.png,,,fetched,skip
+pro-image-sports,Pro Image Sports,,32,proimagesports.com,logos/reference/pro-image-sports.png,,,fetched,skip
+psycho-bunny,Psycho Bunny,,24,psychobunny.com,logos/reference/psycho-bunny.svg,,,fetched,skip
+publix,Publix,,24,publix.com,logos/reference/publix.svg,,,fetched,skip
 puma,Puma,,23,puma.com,logos/reference/puma.png,,,fetched,use
-purple,Purple,,14,purple.ai,logos/reference/purple.svg,,,fetched,use
-q,Q,,14,qnityelectronics.com,logos/reference/q.png,,,fetched,use
+purple,Purple,,14,purple.ai,logos/reference/purple.svg,,,fetched,skip
+q,Q,,14,qnityelectronics.com,logos/reference/q.png,,,fetched,skip
 qdoba,Qdoba,,22,qdoba.com,logos/reference/qdoba.png,,,fetched,use
-rack-room-shoes,Rack Room Shoes,,48,rackroomshoes.com,logos/reference/rack-room-shoes.svg,,,fetched,use
-rainbow,Rainbow,,48,rainbow.me,logos/reference/rainbow.png,,,fetched,use
-rainforest-cafe,Rainforest Cafe,,10,rainforestcafe.com,logos/reference/rainforest-cafe.png,,,fetched,use
-raising-cane-s,Raising Cane's,,10,raisingcanes.com,logos/reference/raising-cane-s.svg,,,fetched,use
-rally-house,Rally House,,11,rallyhouse.com,logos/reference/rally-house.png,,,fetched,use
+rack-room-shoes,Rack Room Shoes,,48,rackroomshoes.com,logos/reference/rack-room-shoes.svg,,,fetched,skip
+rainbow,Rainbow,,48,rainbow.me,logos/reference/rainbow.png,,,fetched,skip
+rainforest-cafe,Rainforest Cafe,,10,rainforestcafe.com,logos/reference/rainforest-cafe.png,,,fetched,skip
+raising-cane-s,Raising Cane's,,10,raisingcanes.com,logos/reference/raising-cane-s.svg,,,fetched,skip
+rally-house,Rally House,,11,rallyhouse.com,logos/reference/rally-house.png,,,fetched,skip
 ray-ban,Ray-Ban,,10,ray-ban.com,logos/reference/ray-ban.svg,,,fetched,use
 red-robin,Red Robin,,37,redrobin.com,logos/reference/red-robin.svg,,,fetched,use
 red-wing,Red Wing,,11,red-wing.org,logos/reference/red-wing.png,,,fetched,use
 reebok,Reebok,,11,reebok.com,logos/reference/reebok.png,,,fetched,use
 reeds-jewelers,Reeds Jewelers,,24,reedsjewelers.com,logos/reference/reeds-jewelers.png,,,fetched,use
-regis,Regis,,10,regis.edu,logos/reference/regis.png,,,fetched,use
+regis,Regis,,10,regis.edu,logos/reference/regis.png,,,fetched,skip
 rent-a-center,Rent-A-Center,,23,raccareers.com,logos/reference/rent-a-center.png,,,fetched,use
-restoration-hardware,Restoration Hardware,,11,restorationhardware.com,logos/reference/restoration-hardware.svg,,,fetched,use
-riddle-s-jewelry,Riddle's Jewelry,,11,riddlesjewelry.com,logos/reference/riddle-s-jewelry.svg,,,fetched,use
+restoration-hardware,Restoration Hardware,,11,restorationhardware.com,logos/reference/restoration-hardware.svg,,,fetched,skip
+riddle-s-jewelry,Riddle's Jewelry,,11,riddlesjewelry.com,logos/reference/riddle-s-jewelry.svg,,,fetched,skip
 rite-aid,Rite Aid,,10,riteaid.com,logos/reference/rite-aid.svg,,,fetched,use
 rocky-mountain-chocolate-factory,Rocky Mountain Chocolate Factory,,20,rmcf.com,logos/reference/rocky-mountain-chocolate-factory.png,,,fetched,use
 rolex,Rolex,,14,rolex.com,logos/reference/rolex.png,,,fetched,use
 ross,Ross,,89,ross.org,logos/reference/ross.png,,,fetched,use
-round1,Round1,,26,round1.co.jp,logos/reference/round1.png,,,fetched,use
-ruby-thai-kitchen,Ruby Thai Kitchen,,10,rubythai-kitchen.com,logos/reference/ruby-thai-kitchen.png,,,fetched,use
+round1,Round1,,26,round1.co.jp,logos/reference/round1.png,,,fetched,skip
+ruby-thai-kitchen,Ruby Thai Kitchen,,10,rubythai-kitchen.com,logos/reference/ruby-thai-kitchen.png,,,fetched,skip
 rue21,rue21,,102,rue21.com,logos/reference/rue21.png,,,fetched,use
 safeway,Safeway,,11,safeway.com,logos/reference/safeway.png,,,fetched,use
 saks-fifth-avenue,Saks Fifth Avenue,,22,saksfifthavenue.com,logos/reference/saks-fifth-avenue.svg,,,fetched,use
 saks-off-5th,Saks Off 5th,,16,saksoff5th.com,logos/reference/saks-off-5th.png,,,fetched,use
-sally-beauty,Sally Beauty,,37,sallybeauty.com,logos/reference/sally-beauty.png,,,fetched,use
+sally-beauty,Sally Beauty,,37,sallybeauty.com,logos/reference/sally-beauty.png,,,fetched,skip
 samsonite,Samsonite,,27,samsonite.com.pe,logos/reference/samsonite.png,,,fetched,use
-sarku-japan,Sarku Japan,,54,sarkujapan.com,logos/reference/sarku-japan.png,,,fetched,use
+sarku-japan,Sarku Japan,,54,sarkujapan.com,logos/reference/sarku-japan.png,,,fetched,skip
 sbarro,Sbarro,,95,sbarro.com,logos/reference/sbarro.png,,,fetched,use
 sears,Sears,,49,sears.com,logos/reference/sears.svg,,,fetched,use
 see-s-candies,See's Candies,,48,sees.com,logos/reference/see-s-candies.png,,,fetched,use
 sephora,Sephora,,148,sephora.com,logos/reference/sephora.png,,,fetched,use
 shake-shack,Shake Shack,,31,shakeshack.com,logos/reference/shake-shack.png,,,fetched,use
 sherwin-williams,Sherwin-Williams,,13,sherwin-williams.com,logos/reference/sherwin-williams.png,,,fetched,use
-shiekh,Shiekh,,11,shiekh.com,logos/reference/shiekh.png,,,fetched,use
+shiekh,Shiekh,,11,shiekh.com,logos/reference/shiekh.png,,,fetched,skip
 shoe-carnival,Shoe Carnival,,21,shoecarnival.com,logos/reference/shoe-carnival.svg,,,fetched,use
-shoe-dept,Shoe Dept.,,26,shoedeptencore.com,logos/reference/shoe-dept.png,,,fetched,use
-shoe-dept-encore,Shoe Dept. Encore,,76,shoedeptencore.com,logos/reference/shoe-dept-encore.png,,,fetched,use
-shoe-palace,Shoe Palace,,41,shoepalace.com,logos/reference/shoe-palace.png,,,fetched,use
+shoe-dept,Shoe Dept.,,26,shoedeptencore.com,logos/reference/shoe-dept.png,,,fetched,skip
+shoe-dept-encore,Shoe Dept. Encore,,76,shoedeptencore.com,logos/reference/shoe-dept-encore.png,,,fetched,skip
+shoe-palace,Shoe Palace,,41,shoepalace.com,logos/reference/shoe-palace.png,,,fetched,skip
 skechers,Skechers,,73,skechers.com,logos/reference/skechers.svg,,,fetched,use
-sleep-number,Sleep Number,,43,sleepnumber.com,logos/reference/sleep-number.svg,,,fetched,use
-snipes,Snipes,,16,snipes.com,logos/reference/snipes.svg,,,fetched,use
-soma,Soma,,49,soma.com,,,,missing,use
-spectrum,Spectrum,,17,spectrum.life,logos/reference/spectrum.svg,,,fetched,use
+sleep-number,Sleep Number,,43,sleepnumber.com,logos/reference/sleep-number.svg,,,fetched,skip
+snipes,Snipes,,16,snipes.com,logos/reference/snipes.svg,,,fetched,skip
+soma,Soma,,49,soma.com,,,,missing,skip
+spectrum,Spectrum,,17,spectrum.life,logos/reference/spectrum.svg,,,fetched,skip
 spencer-s,Spencer's,,195,spencersonline.com,logos/reference/spencer-s.svg,,,fetched,use
 sperry,Sperry,,10,sperry.com,logos/reference/sperry.png,,,fetched,use
-spirit-halloween,Spirit Halloween,,12,spirithalloween.com,logos/reference/spirit-halloween.png,,,fetched,use
+spirit-halloween,Spirit Halloween,,12,spirithalloween.com,logos/reference/spirit-halloween.png,,,fetched,skip
 sport-clips,Sport Clips,,18,sportclips.com,logos/reference/sport-clips.jpeg,,,fetched,use
-sprint,Sprint,,20,sprint.xyz,logos/reference/sprint.png,,,fetched,use
+sprint,Sprint,,20,sprint.xyz,logos/reference/sprint.png,,,fetched,skip
 staples,Staples,,34,staples.com,logos/reference/staples.svg,,,fetched,use
 starbucks,Starbucks,,279,starbucks.com,logos/reference/starbucks.svg,,,fetched,use
 steve-madden,Steve Madden,,36,stevemadden.com,logos/reference/steve-madden.png,,,fetched,use
-stir-fry-88,Stir Fry 88,,11,stir-tea-coffee.com,logos/reference/stir-fry-88.png,,,fetched,use
-stuart-weitzman,Stuart Weitzman,,10,stuartweitzman.com,logos/reference/stuart-weitzman.svg,,,fetched,use
+stir-fry-88,Stir Fry 88,,11,stir-tea-coffee.com,logos/reference/stir-fry-88.png,,,fetched,skip
+stuart-weitzman,Stuart Weitzman,,10,stuartweitzman.com,logos/reference/stuart-weitzman.svg,,,fetched,skip
 subway,Subway,,216,subway.com,logos/reference/subway.png,,,fetched,use
-suki-hana,Suki Hana,,11,suki.ai,logos/reference/suki-hana.png,,,fetched,use
+suki-hana,Suki Hana,,11,suki.ai,logos/reference/suki-hana.png,,,fetched,skip
 sunglass-hut,Sunglass Hut,,198,sunglasshut.com,logos/reference/sunglass-hut.png,,,fetched,use
 supercuts,Supercuts,,21,supercuts.com,logos/reference/supercuts.svg,,,fetched,use
-sur-la-table,Sur La Table,,14,surlatable.com,logos/reference/sur-la-table.svg,,,fetched,use
+sur-la-table,Sur La Table,,14,surlatable.com,logos/reference/sur-la-table.svg,,,fetched,skip
 swarovski,Swarovski,,75,swarovski.com,logos/reference/swarovski.png,,,fetched,use
 t-mobile,T-Mobile,,221,t-mobile.com,logos/reference/t-mobile.png,,,fetched,use
 taco-bell,Taco Bell,,55,tacobell.com,logos/reference/taco-bell.png,,,fetched,use
-talbots,Talbots,,47,talbots.com,logos/reference/talbots.png,,,fetched,use
+talbots,Talbots,,47,talbots.com,logos/reference/talbots.png,,,fetched,skip
 target,Target,,110,target.com,logos/reference/target.svg,,,fetched,use
 tempur-pedic,Tempur-Pedic,,16,tempurpedic.com,logos/reference/tempur-pedic.svg,,,fetched,use
 tesla,Tesla,,12,tesla.com,logos/reference/tesla.png,,,fetched,use
-texas-de-brazil,Texas de Brazil,,14,texasdebrazil.com,logos/reference/texas-de-brazil.png,,,fetched,use
+texas-de-brazil,Texas de Brazil,,14,texasdebrazil.com,logos/reference/texas-de-brazil.png,,,fetched,skip
 texas-roadhouse,Texas Roadhouse,,12,texasroadhouse.com,logos/reference/texas-roadhouse.png,,,fetched,use
 the-body-shop,The Body Shop,,15,thebodyshop.com,logos/reference/the-body-shop.svg,,,fetched,use
 the-cheesecake-factory,The Cheesecake Factory,,86,thecheesecakefactory.com,logos/reference/the-cheesecake-factory.svg,,,fetched,use
-the-children-s-place,The Children's Place,,142,childrensplace.com,logos/reference/the-children-s-place.svg,,,fetched,use
-the-coffee-bean-and-tea-leaf,The Coffee Bean & Tea Leaf,,12,coffeebean.com,logos/reference/the-coffee-bean-and-tea-leaf.svg,,,fetched,use
+the-children-s-place,The Children's Place,,142,childrensplace.com,logos/reference/the-children-s-place.svg,,,fetched,skip
+the-coffee-bean-and-tea-leaf,The Coffee Bean & Tea Leaf,,12,coffeebean.com,logos/reference/the-coffee-bean-and-tea-leaf.svg,,,fetched,skip
 the-container-store,The Container Store,,17,containerstore.com,logos/reference/the-container-store.svg,,,fetched,use
 the-cosmetics-company-store,The Cosmetics Company Store,,20,cosmeticscompanystore.com,logos/reference/the-cosmetics-company-store.png,,,fetched,use
 the-north-face,The North Face,,38,thenorthface.com,logos/reference/the-north-face.svg,,,fetched,use
 the-uniform-outlet,The Uniform Outlet,,11,theuniformoutlet.com,logos/reference/the-uniform-outlet.png,,,fetched,use
 the-ups-store,The UPS Store,,43,theupsstore.com,logos/reference/the-ups-store.jpeg,,,fetched,use
-the-walking-company,The Walking Company,,17,thewalkingcompany.com,logos/reference/the-walking-company.png,,,fetched,use
-things-remembered,Things Remembered,,36,thingsremembered.com,logos/reference/things-remembered.svg,,,fetched,use
+the-walking-company,The Walking Company,,17,thewalkingcompany.com,logos/reference/the-walking-company.png,,,fetched,skip
+things-remembered,Things Remembered,,36,thingsremembered.com,logos/reference/things-remembered.svg,,,fetched,skip
 tiffany-and-company,Tiffany & Company,,29,tiffanylaw.ca,logos/reference/tiffany-and-company.png,,,fetched,use
-tillys,Tillys,,55,tillys.com,logos/reference/tillys.png,,,fetched,use
+tillys,Tillys,,55,tillys.com,logos/reference/tillys.png,,,fetched,skip
 timberland,Timberland,,16,timberland.com,logos/reference/timberland.png,,,fetched,use
 tj-maxx,TJ Maxx,,93,trainingjournal.com,logos/reference/tj-maxx.png,,,fetched,use
-tokyo-japanese-lifestyle,Tokyo Japanese Lifestyle,,12,tokyojlsusa.com,logos/reference/tokyo-japanese-lifestyle.png,,,fetched,use
+tokyo-japanese-lifestyle,Tokyo Japanese Lifestyle,,12,tokyojlsusa.com,logos/reference/tokyo-japanese-lifestyle.png,,,fetched,skip
 tommy-bahama,Tommy Bahama,,27,tommybahama.com,logos/reference/tommy-bahama.svg,,,fetched,use
 tommy-hilfiger,Tommy Hilfiger,,51,tommy.com,logos/reference/tommy-hilfiger.png,,,fetched,use
-torrid,Torrid,,129,torrid.com,logos/reference/torrid.png,,,fetched,use
+torrid,Torrid,,129,torrid.com,logos/reference/torrid.png,,,fetched,skip
 tory-burch,Tory Burch,,25,toryburch.com,logos/reference/tory-burch.png,,,fetched,use
-total-wine,Total Wine,,11,totalwine.com,logos/reference/total-wine.png,,,fetched,use
-tractor-supply-company,Tractor Supply Company,,12,tractorsupply.com,logos/reference/tractor-supply-company.svg,,,fetched,use
-tradehome-shoes,Tradehome Shoes,,31,tradehome.com,logos/reference/tradehome-shoes.svg,,,fetched,use
+total-wine,Total Wine,,11,totalwine.com,logos/reference/total-wine.png,,,fetched,skip
+tractor-supply-company,Tractor Supply Company,,12,tractorsupply.com,logos/reference/tractor-supply-company.svg,,,fetched,skip
+tradehome-shoes,Tradehome Shoes,,31,tradehome.com,logos/reference/tradehome-shoes.svg,,,fetched,skip
 trader-joe-s,Trader Joe's,,16,traderjoes.com,logos/reference/trader-joe-s.png,,,fetched,use
 tropical-smoothie-cafe,Tropical Smoothie Cafe,,14,tropicalsmoothiecafe.com,logos/reference/tropical-smoothie-cafe.svg,,,fetched,use
 true-religion,True Religion,,15,truereligion.com,logos/reference/true-religion.png,,,fetched,use
 tumi,Tumi,,51,tumi.com,logos/reference/tumi.png,,,fetched,use
 u-s-polo-assn,U.S. Polo Assn.,,10,uspoloassn.com,logos/reference/u-s-polo-assn.png,,,fetched,use
-ugg,UGG,,15,ugg.com,logos/reference/ugg.svg,,,fetched,use
+ugg,UGG,,15,ugg.com,logos/reference/ugg.svg,,,fetched,skip
 ulta-beauty,Ulta Beauty,,105,ulta.com,logos/reference/ulta-beauty.png,,,fetched,use
 under-armour,Under Armour,,46,underarmour.com,logos/reference/under-armour.svg,,,fetched,use
-uniform-destination,Uniform Destination,,13,uniformdestinationfl.com,logos/reference/uniform-destination.png,,,fetched,use
+uniform-destination,Uniform Destination,,13,uniformdestinationfl.com,logos/reference/uniform-destination.png,,,fetched,skip
 uniqlo,Uniqlo,,46,uniqlo.co.jp,logos/reference/uniqlo.svg,,,fetched,use
-untuckit,UNTUCKit,,20,untuckit.com,logos/reference/untuckit.png,,,fetched,use
+untuckit,UNTUCKit,,20,untuckit.com,logos/reference/untuckit.png,,,fetched,skip
 urban-outfitters,Urban Outfitters,,48,urbanoutfitters.com,logos/reference/urban-outfitters.png,,,fetched,use
-valliani-jewelers,Valliani Jewelers,,10,vallianijewelers.com,logos/reference/valliani-jewelers.svg,,,fetched,use
+valliani-jewelers,Valliani Jewelers,,10,vallianijewelers.com,logos/reference/valliani-jewelers.svg,,,fetched,skip
 van-heusen,Van Heusen,,14,vanheusen.com.au,logos/reference/van-heusen.svg,,,fetched,use
 vans,Vans,,131,vans.com,logos/reference/vans.png,,,fetched,use
-vans-outlet,Vans Outlet,,12,vans.com,logos/reference/vans-outlet.png,,,fetched,use
-vera-bradley,Vera Bradley,,35,verabradley.com,logos/reference/vera-bradley.png,,,fetched,use
+vans-outlet,Vans Outlet,,12,vans.com,logos/reference/vans-outlet.png,,,fetched,skip
+vera-bradley,Vera Bradley,,35,verabradley.com,logos/reference/vera-bradley.png,,,fetched,skip
 verizon,Verizon,,117,verizon.com,logos/reference/verizon.svg,,,fetched,use
 versace,Versace,,11,versace.com,logos/reference/versace.png,,,fetched,use
-versona,Versona,,12,shopversona.com,logos/reference/versona.png,,,fetched,use
+versona,Versona,,12,shopversona.com,logos/reference/versona.png,,,fetched,skip
 victoria-s-secret,Victoria's Secret,,264,victoriassecret.com,logos/reference/victoria-s-secret.png,,,fetched,use
-villa-fresh-italian-kitchen,Villa Fresh Italian Kitchen,,11,villaitaliankitchen.com,logos/reference/villa-fresh-italian-kitchen.png,,,fetched,use
-vince,VINCE.,,16,vince.com,logos/reference/vince.png,,,fetched,use
-vineyard-vines,Vineyard Vines,,24,vineyardvines.com,logos/reference/vineyard-vines.png,,,fetched,use
-visionworks,Visionworks,,57,visionworks.com,logos/reference/visionworks.png,,,fetched,use
+villa-fresh-italian-kitchen,Villa Fresh Italian Kitchen,,11,villaitaliankitchen.com,logos/reference/villa-fresh-italian-kitchen.png,,,fetched,skip
+vince,VINCE.,,16,vince.com,logos/reference/vince.png,,,fetched,skip
+vineyard-vines,Vineyard Vines,,24,vineyardvines.com,logos/reference/vineyard-vines.png,,,fetched,skip
+visionworks,Visionworks,,57,visionworks.com,logos/reference/visionworks.png,,,fetched,skip
 vitamin-world,Vitamin World,,29,vitaminworld.com,logos/reference/vitamin-world.svg,,,fetched,use
-volcom,Volcom,,10,volcom.com,logos/reference/volcom.svg,,,fetched,use
-von-maur,Von Maur,,20,vonmaur.com,logos/reference/von-maur.svg,,,fetched,use
-vuori,Vuori,,10,vuoriclothing.com,logos/reference/vuori.svg,,,fetched,use
+volcom,Volcom,,10,volcom.com,logos/reference/volcom.svg,,,fetched,skip
+von-maur,Von Maur,,20,vonmaur.com,logos/reference/von-maur.svg,,,fetched,skip
+vuori,Vuori,,10,vuoriclothing.com,logos/reference/vuori.svg,,,fetched,skip
 walgreens,Walgreens,,31,walgreens.com,logos/reference/walgreens.png,,,fetched,use
 walmart-supercenter,Walmart Supercenter,,11,walmart.com,logos/reference/walmart-supercenter.png,,,fetched,use
 warby-parker,Warby Parker,,28,warbyparker.com,logos/reference/warby-parker.svg,,,fetched,use
 wendy-s,Wendy's,,24,wendys.com,logos/reference/wendy-s.svg,,,fetched,use
 west-elm,west elm,,11,westelm.com,logos/reference/west-elm.png,,,fetched,use
 wetzel-s-pretzels,Wetzel's Pretzels,,51,wetzels.com,logos/reference/wetzel-s-pretzels.png,,,fetched,use
-white-barn,White Barn,,13,whitebarn.com.au,logos/reference/white-barn.svg,,,fetched,use
-white-house-black-market,White House Black Market,,86,whitehouseblackmarket.com,logos/reference/white-house-black-market.svg,,,fetched,use
+white-barn,White Barn,,13,whitebarn.com.au,logos/reference/white-barn.svg,,,fetched,skip
+white-house-black-market,White House Black Market,,86,whitehouseblackmarket.com,logos/reference/white-house-black-market.svg,,,fetched,skip
 whole-foods-market,Whole Foods Market,,17,wholefoodsmarket.com,logos/reference/whole-foods-market.png,,,fetched,use
-williams-sonoma,Williams-Sonoma,,36,williams-sonoma.com,logos/reference/williams-sonoma.svg,,,fetched,use
-windsor,Windsor,,88,windsor.gov.uk,logos/reference/windsor.png,,,fetched,use
-wingstop,Wingstop,,18,wingstop.com,logos/reference/wingstop.svg,,,fetched,use
-world-market,World Market,,10,worldmarket.com,logos/reference/world-market.svg,,,fetched,use
+williams-sonoma,Williams-Sonoma,,36,williams-sonoma.com,logos/reference/williams-sonoma.svg,,,fetched,skip
+windsor,Windsor,,88,windsor.gov.uk,logos/reference/windsor.png,,,fetched,skip
+wingstop,Wingstop,,18,wingstop.com,logos/reference/wingstop.svg,,,fetched,skip
+world-market,World Market,,10,worldmarket.com,logos/reference/world-market.svg,,,fetched,skip
 xfinity,Xfinity,,18,xfinity.com,logos/reference/xfinity.png,,,fetched,use
-yankee-candle,Yankee Candle,,81,yankeecandle.com,logos/reference/yankee-candle.svg,,,fetched,use
-yard-house,Yard House,,15,yardhouse.com,logos/reference/yard-house.png,,,fetched,use
-zadig-and-voltaire,Zadig & Voltaire,,10,zadig-et-voltaire.com,logos/reference/zadig-and-voltaire.png,,,fetched,use
-zales,Zales,,141,zales.com,logos/reference/zales.png,,,fetched,use
+yankee-candle,Yankee Candle,,81,yankeecandle.com,logos/reference/yankee-candle.svg,,,fetched,skip
+yard-house,Yard House,,15,yardhouse.com,logos/reference/yard-house.png,,,fetched,skip
+zadig-and-voltaire,Zadig & Voltaire,,10,zadig-et-voltaire.com,logos/reference/zadig-and-voltaire.png,,,fetched,skip
+zales,Zales,,141,zales.com,logos/reference/zales.png,,,fetched,skip
 zara,Zara,,50,zara.com,logos/reference/zara.png,,,fetched,use
 zumiez,Zumiez,,185,zumiez.com,logos/reference/zumiez.svg,,,fetched,use
+blick,Blick,,,,logos/reference/blick.png,,,fetched,use
+platinum-fades-barber-lounge,Platinum Fades Barber Lounge,,,,logos/reference/platinumfades.png,,,fetched,use
+cermak-fresh-market,Cermak Fresh Market,,,,logos/reference/cermakfresh.svg,,,fetched,use
+la-casa-del-pueblo,La Casa del Pueblo,,,,logos/reference/lacasa.png,,,fetched,use
+la-michoacana,La Michoacana,,,,logos/reference/lamichoacana.jpeg,,,fetched,use
+petes-market,Pete's Market,,,,logos/reference/petesmarket.png,,,fetched,use
+five-star-furniture,Five Star Furniture,,,,logos/reference/fivestarfurniture.png,,,fetched,use
+intelligentsia-coffee,Intelligentsia Coffee,,,,logos/reference/intelligentsiacoffee.jpg,,,fetched,use
+western-union,Western Union,,,,logos/reference/westernunion.png,,,fetched,use
+bank-of-america,Bank of America,,,,logos/reference/bankofamerica.png,,,fetched,use
+chase,Chase,,,,logos/reference/chase.jpg,,,fetched,use
+giordanos,Giordano's,,,,logos/reference/giordanos.png,,,fetched,use
+jenis-ice-cream,Jeni's Ice Creams,,,,logos/reference/jenis.png,,,fetched,use
+ghirardelli-chocolate,Ghirardelli Chocolate,,,,logos/reference/ghirardellichocolate.jpeg,,,fetched,use
+black-dog-gelato,Black Dog Gelato,,,,logos/reference/blackdog.jpeg,,,fetched,use
+goddess-and-the-baker,Goddess and the Baker,,,,logos/reference/goddess.png,,,fetched,use
+nandos,Nando's,,,,logos/reference/nandos.png,,,fetched,use
+siri-indian-restaurant,Siri Indian Restaurant,,,,logos/reference/siri.png,,,fetched,use
+patel-brothers,Patel Brothers,,,,logos/reference/patelbrothers.png,,,fetched,use
+annapurna,Annapurna,,,,logos/reference/annapurna.png,,,fetched,use
+lou-malnatis-pizzeria,Lou Malnati's Pizzeria,,,,logos/reference/loumalnatis.png,,,fetched,use
+regal-cinemas,Regal Cinemas,,,,logos/reference/regalcinemas.jpg,,,fetched,use
+lyca-mobile,Lyca Mobile,,,,logos/reference/lycamobile.png,,,fetched,use
+ikea,IKEA,,,,logos/reference/ikea.png,,,fetched,use
+home-depot,The Home Depot,,,,logos/reference/homedepot.jpeg,,,fetched,use
+tjmax,T.J.Maxx,,,,logos/reference/tjmax.png,,,fetched,use
