@@ -9,6 +9,11 @@ processes rows where:
 
 It skips rows already generated and allows partial runs to resume safely.
 
+Backend: defaults to Google AI Studio (Gemini Developer API, via
+GOOGLE_API_KEY). Set GOOGLE_GENAI_USE_VERTEXAI=true in .env.local (with
+GOOGLE_CLOUD_PROJECT/GOOGLE_CLOUD_LOCATION) to route through Vertex AI
+instead. Same model, same generation settings either way.
+
 Usage examples:
   python scripts/04_generate_images.py --limit 5
   python scripts/04_generate_images.py --limit 5 --dry-run
@@ -19,6 +24,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import io
 import os
 import re
 import sys
@@ -27,6 +33,7 @@ from pathlib import Path
 from typing import Any
 
 from dotenv import load_dotenv
+from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 CSV_PATH = ROOT / "data" / "strip-mall-brands.csv"
@@ -80,17 +87,11 @@ def is_ready_for_generation(row: dict[str, str]) -> bool:
 
 def prompt_for_brand(brand_name: str, assigned_word: str) -> str:
     return (
-        f"Use the attached reference image as the design source. "
-        f"Create a clean storefront wordmark logo based on that reference design. "
-        f"Match the reference logo's typography, weight, letter spacing, color palette, "
-        f"high contrast, and overall brand personality as closely as possible. "
-        f"Replace the original text with the exact word: '{assigned_word}'. "
-        f"Keep the wordmark crisp, readable, and suitable for a retail storefront. "
-        f"Do not add extra symbols, icons, slogans, or unrelated copy. "
-        f"Do not change the logo into a different style or a decorative script. "
-        f"Preserve the underlying letterform structure and recognizability of the reference brand, "
-        f"while rendering '{assigned_word}' in that exact visual language. "
-        f"The result should feel like a legitimate retail sign, not a fantasy logo."
+        f"Use the reference logo as the design source. Match the original logo's "
+        f"typography, weight, letter spacing, contrast, and color palette as "
+        f'closely as possible. Replace the wording with: "{assigned_word}". '
+        f"Keep the result clean with the same overall brand character and "
+        f"match it character by character."
     )
 
 
@@ -176,6 +177,18 @@ def _extract_image_bytes_from_response(response: Any) -> bytes | None:
     return None
 
 
+def _ensure_png_bytes(image_bytes: bytes) -> bytes:
+    """Re-encode as real PNG bytes regardless of what format the API actually
+    returned. output_mime_type is Vertex-only, so the Gemini Developer API
+    (AI Studio) path can hand back JPEG even though we always save as .png."""
+    with Image.open(io.BytesIO(image_bytes)) as img:
+        if img.format == "PNG":
+            return image_bytes
+        buffer = io.BytesIO()
+        img.convert("RGB").save(buffer, format="PNG")
+        return buffer.getvalue()
+
+
 def generate_with_google(reference_path: Path, prompt: str, model_name: str) -> bytes:
     if not USE_VERTEXAI and not GOOGLE_API_KEY:
         raise RuntimeError(
@@ -218,11 +231,19 @@ def generate_with_google(reference_path: Path, prompt: str, model_name: str) -> 
     )
     text_part = types.Part.from_text(text=prompt)
 
+    # image_size matches AI Studio's "Resolution: 1K"; aspect_ratio is left
+    # unset to match AI Studio's "Aspect ratio: Auto" (Auto isn't a real
+    # value on this field, it just means don't send one).
     # output_mime_type is Vertex-only; the Gemini Developer API doesn't
     # support it, so only request it when running against Vertex.
-    image_config = types.ImageConfig(
-        output_mime_type="image/png") if USE_VERTEXAI else None
+    image_config_kwargs: dict[str, Any] = {"image_size": "1K"}
+    if USE_VERTEXAI:
+        image_config_kwargs["output_mime_type"] = "image/png"
+    image_config = types.ImageConfig(**image_config_kwargs)
 
+    # Note: higher temperature increases sampling randomness and can
+    # reintroduce letter-substitution typos; thinking_level=HIGH is what
+    # was found to actually fix text accuracy.
     try:
         response = client.models.generate_content(
             model=model_name,
@@ -231,19 +252,27 @@ def generate_with_google(reference_path: Path, prompt: str, model_name: str) -> 
                 text_part,
             ],
             config=types.GenerateContentConfig(
-                response_modalities=["TEXT", "IMAGE"],
-                temperature=0.2,
+                response_modalities=["IMAGE"],
+                temperature=0.3,
+                top_p=0.95,
+                max_output_tokens=65536,
+                thinking_config=types.ThinkingConfig(
+                    thinking_level=types.ThinkingLevel.MINIMAL),
                 image_config=image_config,
             ),
         )
     except TypeError:
         # Some SDK versions accept content config in a slightly different manner.
         config_dict: dict[str, Any] = {
-            "responseModalities": ["TEXT", "IMAGE"],
-            "temperature": 0.2,
+            "responseModalities": ["IMAGE"],
+            "temperature": 0.3,
+            "topP": 0.95,
+            "maxOutputTokens": 65536,
+            "thinkingConfig": {"thinkingLevel": "MINIMAL"},
+            "imageConfig": {"imageSize": "1K"},
         }
         if USE_VERTEXAI:
-            config_dict["imageConfig"] = {"outputMimeType": "image/png"}
+            config_dict["imageConfig"]["outputMimeType"] = "image/png"
         response = client.models.generate_content(
             model=model_name,
             contents=[
@@ -293,7 +322,8 @@ def process_row(row: dict[str, str], dry_run: bool = False, delay: float = 0.0) 
     try:
         image_bytes = generate_with_google(
             resolved_ref, prompt, GEMINI_IMAGE_MODEL)
-        output_path.write_bytes(image_bytes)
+        png_bytes = _ensure_png_bytes(image_bytes)
+        output_path.write_bytes(png_bytes)
         row["generated_logo_path"] = output_path.relative_to(ROOT).as_posix()
         row["logo_status"] = "generated"
         print(f"[OK] {brand_name} -> {output_path.relative_to(ROOT).as_posix()}")
@@ -313,8 +343,11 @@ def parse_args() -> argparse.Namespace:
         description="Generate substituted storefront logos from reference logos.")
     parser.add_argument("--limit", type=int, default=None,
                         help="Process only N eligible rows.")
-    parser.add_argument("--delay", type=float, default=0.0,
-                        help="Optional delay between rows in seconds.")
+    parser.add_argument("--delay", type=float, default=60.0,
+                        help="Seconds to sleep between rows (default: 60.0, to "
+                        "stay under Vertex AI's 2 requests/min/project/model "
+                        "quota for generate_content_image_gen_per_project_per_base_model_global "
+                        "with margin for other calls sharing the same quota bucket).")
     parser.add_argument("--dry-run", action="store_true",
                         help="Preview rows without sending API requests.")
     parser.add_argument("--brand", type=str, default="",
@@ -324,16 +357,17 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> int:
     args = parse_args()
-    rows = read_csv_rows()
+    all_rows = read_csv_rows()
 
+    candidate_rows = all_rows
     if args.brand:
-        rows = [row for row in rows if (
+        candidate_rows = [row for row in all_rows if (
             row.get("brand_name") or "").strip().lower() == args.brand.strip().lower()]
-        if not rows:
+        if not candidate_rows:
             print(f"No rows matched brand: {args.brand}", file=sys.stderr)
             return 1
 
-    ready_rows = [row for row in rows if is_ready_for_generation(row)]
+    ready_rows = [row for row in candidate_rows if is_ready_for_generation(row)]
     if args.limit is not None:
         ready_rows = ready_rows[: args.limit]
 
@@ -341,20 +375,24 @@ def main() -> int:
         print("No eligible rows found. Check use_status, assigned_word, and reference_logo_path.")
         return 0
 
+    backend = "Vertex AI" if USE_VERTEXAI else "Google AI Studio (Gemini Developer API)"
     print(f"Processing {len(ready_rows)} eligible row(s).")
-    print(f"Using model: {GEMINI_IMAGE_MODEL}")
+    print(f"Using model: {GEMINI_IMAGE_MODEL} via {backend}")
 
     for index, row in enumerate(ready_rows, start=1):
         print(f"[{index}/{len(ready_rows)}] {row.get('brand_name', '')}")
         updated_row = process_row(
             dict(row), dry_run=args.dry_run, delay=args.delay)
 
-        for existing_index, existing_row in enumerate(rows):
+        for existing_index, existing_row in enumerate(all_rows):
             if (existing_row.get("slug") or "") == (updated_row.get("slug") or ""):
-                rows[existing_index] = updated_row
+                all_rows[existing_index] = updated_row
                 break
 
-    write_csv_rows(rows)
+        # Write after every row (not just at the end) so a killed/stopped
+        # run only ever loses the one row in flight, not the whole batch.
+        write_csv_rows(all_rows)
+
     return 0
 
 
