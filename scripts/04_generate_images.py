@@ -36,6 +36,10 @@ ENV_PATH = ROOT / ".env.local"
 load_dotenv(ENV_PATH, override=False)
 
 GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
+USE_VERTEXAI = os.environ.get(
+    "GOOGLE_GENAI_USE_VERTEXAI", "").strip().lower() == "true"
+GOOGLE_CLOUD_PROJECT = os.environ.get("GOOGLE_CLOUD_PROJECT")
+GOOGLE_CLOUD_LOCATION = os.environ.get("GOOGLE_CLOUD_LOCATION", "global")
 GEMINI_IMAGE_MODEL = os.environ.get(
     "GEMINI_IMAGE_MODEL", "gemini-3.1-flash-lite-image")
 
@@ -173,9 +177,11 @@ def _extract_image_bytes_from_response(response: Any) -> bytes | None:
 
 
 def generate_with_google(reference_path: Path, prompt: str, model_name: str) -> bytes:
-    if not GOOGLE_API_KEY:
+    if not USE_VERTEXAI and not GOOGLE_API_KEY:
         raise RuntimeError(
-            "GOOGLE_API_KEY is not set. Add it to .env.local and retry."
+            "Neither Vertex AI nor GOOGLE_API_KEY is configured. Set "
+            "GOOGLE_GENAI_USE_VERTEXAI=true (with GOOGLE_CLOUD_PROJECT) or "
+            "GOOGLE_API_KEY in .env.local and retry."
         )
 
     try:
@@ -194,12 +200,28 @@ def generate_with_google(reference_path: Path, prompt: str, model_name: str) -> 
     elif reference_path.suffix.lower() == ".svg":
         file_mime = "image/svg+xml"
 
-    client = genai.Client(api_key=GOOGLE_API_KEY)
+    if USE_VERTEXAI:
+        if not GOOGLE_CLOUD_PROJECT:
+            raise RuntimeError(
+                "GOOGLE_GENAI_USE_VERTEXAI is true but GOOGLE_CLOUD_PROJECT is not set."
+            )
+        client = genai.Client(
+            vertexai=True,
+            project=GOOGLE_CLOUD_PROJECT,
+            location=GOOGLE_CLOUD_LOCATION,
+        )
+    else:
+        client = genai.Client(api_key=GOOGLE_API_KEY)
     image_part = types.Part.from_bytes(
         data=reference_path.read_bytes(),
         mime_type=file_mime,
     )
     text_part = types.Part.from_text(text=prompt)
+
+    # output_mime_type is Vertex-only; the Gemini Developer API doesn't
+    # support it, so only request it when running against Vertex.
+    image_config = types.ImageConfig(
+        output_mime_type="image/png") if USE_VERTEXAI else None
 
     try:
         response = client.models.generate_content(
@@ -211,20 +233,24 @@ def generate_with_google(reference_path: Path, prompt: str, model_name: str) -> 
             config=types.GenerateContentConfig(
                 response_modalities=["TEXT", "IMAGE"],
                 temperature=0.2,
+                image_config=image_config,
             ),
         )
     except TypeError:
         # Some SDK versions accept content config in a slightly different manner.
+        config_dict: dict[str, Any] = {
+            "responseModalities": ["TEXT", "IMAGE"],
+            "temperature": 0.2,
+        }
+        if USE_VERTEXAI:
+            config_dict["imageConfig"] = {"outputMimeType": "image/png"}
         response = client.models.generate_content(
             model=model_name,
             contents=[
                 image_part,
                 text_part,
             ],
-            config={
-                "responseModalities": ["TEXT", "IMAGE"],
-                "temperature": 0.2,
-            },
+            config=config_dict,
         )
 
     image_data = _extract_image_bytes_from_response(response)
